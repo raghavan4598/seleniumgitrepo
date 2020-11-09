@@ -13,6 +13,7 @@ public class MyCode {
 		d.findElement(By.name("txtUsername")).sendKeys("Admin");
 		d.findElement(By.id("txtPassword")).sendKeys("admin123");
 		d.findElement(By.id("btnLogin")).click();
+		System.out.println("login");
 		
 	}
 
