@@ -11,9 +11,11 @@ public class MyCode {
 		ChromeDriver d=new ChromeDriver();
 		d.get("https://opensource-demo.orangehrmlive.com/");
 		d.findElement(By.name("txtUsername")).sendKeys("Admin");
-		d.findElement(By.id("txtPassword")).sendKeys("admin123");
+		d.findElement(By.name("txtPassword")).sendKeys("admin123");
 		d.findElement(By.id("btnLogin")).click();
 		System.out.println("login");
+		
+		
 		
 	}
 
